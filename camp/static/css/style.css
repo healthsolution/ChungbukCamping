@@ -1,0 +1,219 @@
+/* banner */
+.banner-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  height: 600px;
+  background-image: url('../images/banner-bg.png');
+  color: white;
+  margin: 100px auto 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.text-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 800px;
+  height: 200px;
+}
+
+.banner_text {
+  width: 100%;
+  height: 100px;
+  float: left;
+  font-size: 60px;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.font_size_90 {
+  font-size: 80px;
+}
+
+.explain_text {
+  width: 100%;
+  float: left;
+  font-size: 16px;
+  color: #ffffff;
+  margin-left: 0px;
+}
+
+
+/* style.css */
+.search-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 200px;
+  width: 800px;
+  background-color: rgba(255, 255, 255, 0.5);
+  color: white;
+  margin: 0 auto;
+  margin-top: 100px;
+}
+
+.search-input-container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-bottom: 10px;
+}
+
+.search-input {
+  display: flex;
+  align-items: center;
+}
+
+.search-input input {
+  width: 400px;
+  height: 40px;
+  font-size: 16px;
+  padding: 5px;
+}
+
+.search-input input::placeholder {
+  color: #999;
+}
+.search-input label {
+  margin-right: 5px;
+}
+
+.search-button {
+  padding: 5px 10px;
+  font-size: 24px;
+  background-color: gray;
+  color: white;
+  border: none;
+  cursor: pointer;
+  margin-left: 5px;
+}
+
+.search-button:hover {
+  background-color: rgba( 255, 255, 255, 0.5 );
+  color: black;
+}
+
+.location-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  margin-top: 10px;
+  margin-left: 50px;
+  margin-right: 50px;
+  border: 1px solid black;
+  border-radius: 50px;
+}
+
+.location-container {
+  display: flex;
+  align-items: center;
+  margin-top: 50px;
+  margin-left: 50px;
+  margin-right: 50px;
+  background-color: white;
+}
+
+.location-images {
+  display: flex;
+  overflow-x: hidden;
+  justify-content: center;
+  align-items: center;
+}
+
+.location-image {
+  flex-shrink: 0;
+  width: 130px;
+  height: 120px;
+  margin-right: 10px;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  transition: background-image 0.3s ease-in-out;
+}
+
+.location-button {
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.image1 {
+  background-image: url('../images/location-1.png');
+}
+.image2 {
+  background-image: url('../images/location-2.png');
+}
+.image3 {
+  background-image: url('../images/location-3.png');
+}
+.image4 {
+  background-image: url('../images/location-4.png');
+}
+.image5 {
+  background-image: url('../images/location-5.png');
+}
+.image6 {
+  background-image: url('../images/location-6.png');
+}
+.image7 {
+  background-image: url('../images/location-7.png');
+}
+.image8 {
+  background-image: url('../images/location-8.png');
+}
+.image9 {
+  background-image: url('../images/location-9.png');
+}
+.image10 {
+  background-image: url('../images/location-10.png');
+}
+.location-image.image1:hover {
+  background-image: url('../images/hover-1.png');
+}
+.location-image.image2:hover {
+  background-image: url('../images/hover-2.png');
+}
+.location-image.image3:hover {
+  background-image: url('../images/hover-3.png');
+}
+.location-image.image4:hover {
+  background-image: url('../images/hover-4.png');
+}
+.location-image.image5:hover {
+  background-image: url('../images/hover-5.png');
+}
+.location-image.image6:hover {
+  background-image: url('../images/hover-6.png');
+}
+.location-image.image7:hover {
+  background-image: url('../images/hover-7.png');
+}
+.location-image.image8:hover {
+  background-image: url('../images/hover-8.png');
+}
+.location-image.image9:hover {
+  background-image: url('../images/hover-9.png');
+}
+.location-image.image10:hover {
+  background-image: url('../images/hover-10.png');
+}
+
+/* search.html */
+.name-box {
+  width: 150px;
+  height: 50px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: black;
+}
